@@ -1281,3 +1281,12 @@ user_pref("widget.non-native-theme.enabled", true); // [DEFAULT: true]
 
 /* END: internal custom pref to test for syntax errors ***/
 user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
+
+/* DIY */
+user_pref("extensions.pocket.enabled", false);
+user_pref("browser.tabs.closeWindowWithLastTab", false);
+user_pref("browser.newtabpage.activity-stream.discoverystream.sendToPocket.enabled", false);
+user_pref("messaging-system.rsexperimentloader.enabled", false);
+user_pref("extensions.getAddons.cache.enabled",false);
+/* Modify */
+user_pref("extensions.blocklist.enabled", false);
